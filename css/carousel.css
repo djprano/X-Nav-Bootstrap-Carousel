@@ -6,7 +6,12 @@ body {
   padding-bottom: 40px;
   color: #5a5a5a;
 }
-
+.cabecera{
+  margin-bottom: 20px;
+}
+.logo{
+  height: 62px;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -96,6 +101,12 @@ body {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
+@media(max-width: 950px){
+  .cabecera{
+    display: none;
+  }
+}
+
 @media (min-width: 768px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
@@ -109,6 +120,7 @@ body {
     padding-right: 0;
     padding-left: 0;
   }
+
 
   /* The navbar becomes detached from the top, so we round the corners */
   .navbar-wrapper .navbar {
